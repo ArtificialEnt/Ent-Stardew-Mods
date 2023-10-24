@@ -1,0 +1,50 @@
+/************************************************************************************************************************************************************************
+*																																										*
+*																																										*
+*															Dialogue Template: Day to Day speech																		*
+*																																										*
+*			This file determines what your NPC says during the days.  You can use different tokens to symbolize your character's personality. 							*
+*																																										*
+*   Basic Keys: Mon, Tue, Wed, Thu, Fri, Sat, Sun : These are the days of the week and must have a capitol letter to be parsed correctly.								*
+*	Heart-Level is determined with a number at the end. (example: Mon4 is for Monday with 4 hearts.) You can only use even numbers.										*
+*	Seasonal Dialogue is determined with the season name (lowercase) and the day of the week after an underscore. (summer_Wed)											*
+*	You can combine some tokens to make more dialogue: winter_Tue6 for example, means on a Tuesday during winter when you have 6 hearts.								*
+*	You may also specify an exact day using Season followed by the day (1-28): fall_14 means the 14th day of fall.  This is useful for specific events.					*
+*	Response Dialogue goes here from Events and Questions made for the NPC.  They are determined by you and some examples are provided below.							*
+*	Introduction is a one time use dialogue used to Introduce your NPC to the player.																					*
+*	danceRejection, dumped_Girls (dumped_Guys), secondChance_Girls (secondChance_Guys), and divorced are not all needed but you should put them in if your NPC can		*
+*		get married.																																					*
+*																																										*
+*	There are plenty of options to dialogue use.  If you wish to use the full range of dialogue, see: https://stardewvalleywiki.com/Modding:Dialogue					*
+*																																										*
+*************************************************************************************************************************************************************************/
+
+{
+  "Introduction": "Hey, man. @, right? Good to see I'm not the only fresh face in town.",
+  "Mon": "Sometimes I take my turntables down to the Stardrop and give Gus and everybody a little music! $e#It pays the bills. Or would if we had any.",
+  "Tue": "I would die for some apple juice right now.",
+  "Wed": "Ugh, I barely got any sleep last night at all.",
+  "Thu":  "$a%Dave is busy humming. After a few seconds, he gives you a nod.",
+  "summer_Thu": "$a%Dave twitches when he notices you looking at him.$u#What? Can't take your eyes off this hot bod? $neutral#%He tugs his sleeves down in a tight little movement.",
+  "Fri": "Man I have never seen as many books in one place as there are in the library here.",
+  "Sat": "Hey buddy.",
+  "Sun": "Let me know if you ever need a hand in that cave system up on the mountain. $b#Or Rose, for that matter, she'd probably be a lot better.",
+  "Mon4": "I don't know what people have against Mondays, do you? $b#I suppose it must be because of school schedules or something.",
+  "Tue2": "Sometimes I help Doc Harvey out in the clinic. $b#Or, y'know. Lurk in case he needs a hand. $e#Don't look at me like that, I know what I'm doing!",
+  "Wed2": "You and Egbert would get along like a house on fire.",
+  "Thu4": "It's good to see you.",
+  "Fri4": "Look, if the monsters ever get out of hand, we can deal with them. $e#I'm serious! @b#I may not like fighting, but I'll do it if I have to!",
+  "Sat2": "Have you seen the library here? $b#I mean the museum part may not have a lot, but there are so many books!",
+  "Sun4": "... I wonder where everybody else is?",
+  "Mon6": "I love you too, buddy.",
+  "Tue8": "$s#...I miss Karkat.",
+  "Wed8": "I know Doc Harvey doesn't really need me.$b#But at least I'm here in case something does happen, right? $b#$a#$s#His face falls.",
+  "Thu6": "I don't know, but something seems real fishy about Jojamart. $b#You might want to keep an eye on them.",
+  "Fri6": "Hey.",
+  "Sat6": "I have got to get away from Rose for a bit. $b#I mean I know she misses Kanaya, but I just...$b#It's a lot to deal with.",
+  "Sun6": "I'd be happy to help you improve your fighting technique, if you'll give me a hand catching up on my algebra.",
+  "summer": "Ugh I wish this heat would go die in a hole somewhere. $b#Instead of making me feel like I'm dying in a hole.",
+  "winter4": "Texas never really had proper winters, but I actually don't mind it. $b#Kinda reminds me of LoFaF. $e#Er, LoFaF is, $b#Or I guess it was, $b#this place called the Land of Frost and Frogs. It was real pretty!",
+  "winter_2": "What? Oh yeah, I guess it is my birthday.",
+  "spring_13": "... $a%Something seems off about Dave today.",
+}

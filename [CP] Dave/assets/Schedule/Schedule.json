@@ -1,0 +1,14 @@
+{
+  // The rain and default schedules only have been tested.
+  "rain": "0630 Mine 15 8 1/0900 ArchaeologyHouse 10 10 4/1000 ArchaeologyHouse 13 8 1/1200 SeedShop 10 5 3/1230 SeedShop 13 5 1/1400 Hospital 12 7 1/1500 Hospital 10 15 1/1800 Saloon 19 20 2/2130 Mine 17 9 4",
+  "spring": "GOTO default",
+  "summer": "GOTO default",
+  "fall": "GOTO default",
+  "winter": "GOTO default",
+  "Wed": "0630 Mountain 20 20 1/0800 Hospital 10 10 3/0930 Hospital 13 20 2/1200 Hospital 16 20 2/1400 Beach 15 12 3/1500 Beach 15 25 3/1800 BusStop 20 20 1/2200 Mine 17 9 4",
+  "fall_14": "0630 HaleyHouse 06 20 2/0930 HaleyHouse 18 18 4/1230 Hospital 13 14 0/1330 Hospital 4 6 1/1700 HaleyHouse 18 18 4/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+  "Fri": "GOTO rain",
+  "winter_Thu": "0630 Mine 15 8 1/0900 WizardHouse 10 10 1/1200 Forest 40 10 4/1230 Forest 35 10 2/1300 Forest 40 100 3/1500 ArchaeologyHouse 20 10 1/1800 AdventureGuild 11 5 1/2000 Saloon 20 30",
+  "default": "0630 Town 29 93 4/1000 ArchaeologyHouse 15 18 2/1030 ArchaeologyHouse 10 10 3/1300 BusStop 20 20 1/1600 AdventureGuild 7 5 3/1700 AdventureGuild 11 5 2/1900 Mountain 71 9 1/2030 Mine 15 8 1"
+
+}
